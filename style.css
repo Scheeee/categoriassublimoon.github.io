@@ -1,0 +1,410 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;600&display=swap');
+
+body{
+    font-family: sans-serif;
+    margin: auto;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+header {
+    height: 13vh;
+    display: flex;
+    align-items: center;
+    background-color: 	white;
+}
+
+#ImagemPrincipal{
+    position: relative;
+    left: 3%;
+    bottom: 1%;
+}
+
+#sublimoonimagem{
+    width: 58%;
+}
+
+input[type=text] {
+    color: #2d2d6c;
+    border-color: #5c6c98;
+    position: relative;
+    left: 4%;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+
+li {
+    position: relative;
+    left: 9%;
+    font-size: 1.04vw;
+    margin-left: 35px;
+    display: inline;
+}
+
+#carrinho {
+    position: relative;
+    right: 5%;
+}
+
+#fav {
+    position: relative;
+    right: 3%;
+}
+
+#BemVindo {
+    position: relative;
+    left: 18%;
+}
+
+#fotoperfil {
+    position: relative;
+    left: 18%;
+}
+
+#bannerb{
+
+width: 99.1vw;
+height: 45vh;
+
+}
+
+.delimitador{
+    height: 80vh;
+    background-color:white;
+}
+
+#ret1{
+        display: flex;
+        width: 65vw;
+        height: 40vh;
+        justify-content: center;
+        border: 2px solid #0672c7;
+        position: relative;
+        left: 14%;
+        top: 25%;
+        border-radius:10px;
+        
+}
+
+#bloco1{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom:9%;
+
+}
+
+#txt1{
+    
+    font-family: 'Kanit', sans-serif;
+    position: relative;
+    font-size: 1.9vw;
+    right: 44%;
+    bottom: 6vh;
+    text-decoration: underline solid #0672c7;
+    font-weight: bold;
+}
+
+#fileira1{
+    display: flex;
+}
+
+#preco1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+#canecapa{
+
+    width: 14vw;
+    padding: 15px;
+
+}
+
+#preco2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#canecaArte{
+
+    width: 13.86vw;
+    padding: 15px;
+
+
+}
+
+#preco3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#camisetaJesus{
+
+    width: 14vw;
+    padding: 15px;
+
+
+}
+
+#preco4{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#camisaInfantil{
+
+    width: 13.86vw;
+    padding: 15px;
+
+
+}
+
+
+.test{
+
+    height: 90vh;
+
+}
+
+
+#ret2{
+    display: flex;
+    width: 65vw;
+    height: 40vh;
+    justify-content: center;
+    border: 2px solid #0672c7;
+    position: relative;
+    left: 14%;
+    top: 25%;
+    border-radius:10px;
+    
+}
+
+#bloco2{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+position: relative;
+bottom:4%;
+
+}
+
+#txt2{
+
+font-family: 'Kanit', sans-serif;
+position: relative;
+font-size: 1.9vw;
+right: 44%;
+bottom: 6vh;
+text-decoration: underline solid #0672c7;
+font-weight: bold;
+}
+
+#fileira2{
+display: flex;
+}
+
+#preco5{
+
+display: flex;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+
+#canecas{
+
+    position: relative;
+    width: 14vw;
+    padding: 15px;
+    bottom: 4%;
+
+}
+
+#canec{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 5%;
+
+}
+
+#preco6{
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    top:-0%;
+
+
+}
+
+#canecamae{
+
+width: 14.3vw;
+padding: 15px;
+
+
+}
+
+#preco7{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+#camisetacasal{
+
+    position: relative;
+    width: 14vw;
+    padding: 15px;
+    bottom: 0.5%;
+
+
+}
+
+#casa{
+
+    display: flex;
+    position: relative;
+    bottom: 1.5%;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+#preco8{
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+#garrafinha{
+
+    position: relative;
+    width: 13.4vw;
+    padding: 15px;
+    top: 0.3%;
+
+
+}
+
+
+
+
+
+
+
+footer{
+
+    background:#0b67ad;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white
+    
+    }
+    .footer-content{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .footer-content h3{
+    
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    
+    }
+    
+    .footer-content p{
+    
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    
+    }
+    
+    .socials{
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 1rem 0 3rem 0;
+    
+    }
+    .socials li{
+    
+    margin: 0 10px;
+    
+    }
+    
+    .socials a{
+        position: relative;
+        right: 15px;
+        text-decoration: none;
+        color: white
+    }
+    
+    .socials a i{
+    
+        font-size: 1.1rem;
+        transition: color .4s ease;
+    
+    }
+    
+    .socials a:hover i{
+    color: blue;
+    
+    }
+    
+    .footer-bottom{
+    
+    background: #0b67ad;
+    width: 100vw;
+    text-align: center;
+    
+    }
+    
+    footer-bottom p{
+    
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+    
+    }
+    
+    .footer-bottom span{
+    
+        font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 200;
+    color: white
+    }
